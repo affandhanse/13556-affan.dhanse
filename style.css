@@ -101,7 +101,7 @@ nav {
 .navlist h4 a {
   text-decoration: none;
   color: black;
-  z-index: 9;
+  z-index: 11;
   position: relative;
 }
 /* body and video tag  */
@@ -211,14 +211,14 @@ nav {
   padding: 4vw 6vw;
   height: 70vh;
   gap: 20px;
-  z-index: 1;
+  z-index: 11;
 }
 #part1 {
   width: 60%;
 }
 #edu h1 {
   font-size: 6vw;
-  z-index: 9;
+  z-index: 11;
   position: relative;
   font-weight: 900;
   line-height: 4vw;
@@ -338,7 +338,7 @@ nav {
 }
 #mob-elem h2 {
   font-weight: 700;
-  font-size: 6vw;
+  font-size: 4vw;
 }
 #mob-elem h4 {
   font-weight: 400;
@@ -350,11 +350,9 @@ nav {
   font-size: 2vw;
 }
 
-#page3 {
-  min-height: 100vh;
-}
-
 #page5 {
+  position: relative;
+  z-index: 1;
   height: 100vh;
   width: 100%;
   /* background-color: #EFEAE3; */
